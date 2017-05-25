@@ -7,7 +7,6 @@ echo "<title>$titleconst Комиссионка</title>";
 </head>
 <body>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/header.html");?>
-<div id="layer">
 <div id="leftmenu">
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
 </div>
@@ -30,6 +29,18 @@ echo "<title>$titleconst Комиссионка</title>";
 <img class="img_main" src="/images/komissionka/logan-2.jpg" srcset="
 /images/komissionka/logan-2.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="багажник для Renault Logan/Sandero"></div>
 <p><b>Цена 900 рублей</b></p>
-</div></div>
+<h2>Фаркопы</h2>
+<p>Фаркоп на Mitsubishi Lanser 10, 2007-2012, новый.</p>
+<div class="img_div">
+<img class="img_main" src="/images/komissionka/farkop-mitsubisi-1.jpg" srcset="
+/images/komissionka/farkop-mitsubisi-1.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Фаркоп для Mitsubishi Lanser">
+<img class="img_main" src="/images/komissionka/farkop-mitsubisi-2.jpg" srcset="
+/images/komissionka/farkop-mitsubisi-2.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Фаркоп для Mitsubishi Lanser">
+<img class="img_main" src="/images/komissionka/farkop-mitsubisi-3.jpg" srcset="
+/images/komissionka/farkop-mitsubisi-3.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Фаркоп для Mitsubishi Lanser">
+<img class="img_main" src="/images/komissionka/farkop-mitsubisi-4.jpg" srcset="
+/images/komissionka/farkop-mitsubisi-4.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Фаркоп для Mitsubishi Lanser"></div>
+<p><b>Цена 6000 рублей</b></p>
+</div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
