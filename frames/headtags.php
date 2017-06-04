@@ -35,6 +35,7 @@
 <link rel="stylesheet" href="/styles/leftmenu.css">
 <link rel="stylesheet" href="/styles/slider.css">
 <link rel="stylesheet" href="/styles/form.css">
+<link rel="stylesheet" href="/styles/modalcall.css">  
 
 <!-- Scripts -->
 <!-- Put this script tag to the <head> of your page -->
