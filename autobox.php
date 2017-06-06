@@ -21,7 +21,6 @@ echo "<title>$titleconst Автобоксы</title>";
 <tr><td width="30%" class="catalog" align="center"><a class="catalog" href="/yuago.php"><img class="catalog" src="/images/logos/yuago.png" alt="yuago" width="150px"></a></td><td class="catalog" align="center"><a href="/yuago.php">Автобоксы Yuago</a></td></tr>
 <tr><td width="30%" class="catalog" align="center"><a class="catalog" href="/turino.php"><img class="catalog" src="/images/logos/turino.jpg" alt="turino" width="150px"></a></td><td class="catalog" align="center"><a href="/turino.php">Автобоксы Турино</a></td></tr>
 <tr><td width="30%" class="catalog" align="center"><a class="catalog" href="/lux.php"><img class="catalog" src="/images/logos/lux.png" alt="lux" width="150px"></a></td><td class="catalog" align="center"><a href="/lux.php">Lux, Россия</a></td></tr>
-<tr><td width="30%" class="catalog" align="center"><a class="catalog" href="/thule.php"><img class="catalog" src="/images/index/5_thule.jpg" alt="thule" width="150px"></a></td><td class="catalog" align="center"><a href="/thule.php">Автобоксы THULE (Швеция)</a></td></tr>
 </table></div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>

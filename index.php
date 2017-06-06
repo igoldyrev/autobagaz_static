@@ -31,10 +31,6 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 <tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord.php">Крепления для лыж и сноубордов</a></td></tr>
 </table></td></tr>
 <tr><td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/thule.php"><img class="index" src="/images/index/5_thule.jpg" alt="thule" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/thule.php">Багажные системы THULE (Швеция)</a></td></tr>
-</table></td>
-<td><table style="margin-top: 5px" class="index">
 <tr><td class="index" align="center"><a class="index" href="/reelings.php"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/reelings.php">Рейлинги</a></td></tr>
 </table></td>
@@ -64,18 +60,14 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 <tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord.php">Крепления для лыж и сноубордов</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/thule.php"><img class="index" src="/images/index/5_thule.jpg" alt="thule" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/thule.php">Багажные системы THULE (Швеция)</a></td></tr>
-</table></td>
-<td><table style="margin-top: 5px" class="index">
 <tr><td class="index" align="center"><a class="index" href="/reelings.php"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/reelings.php">Рейлинги</a></td></tr>
-</table></td></tr>
-<tr><td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
+<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
+</table></td></tr>
+<tr><td><table style="margin-top: 5px" class="index">
 <tr><td class="index" align="center"><a class="index" href="/farkops.php"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/farkops.php">Фаркопы</a></td></tr>
 </table></td></tr></table>
@@ -97,18 +89,14 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 <tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord.php">Крепления для лыж и сноубордов</a></td></tr>
 </table></td></tr>
 <tr><td><table class="index">
-<tr><td class="index" align="center"><a class="index" href="/thule.php"><img class="index" src="/images/index/5_thule.jpg" alt="thule" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/thule.php">Багажные системы THULE (Швеция)</a></td></tr>
-</table></td>
-<td><table class="index">
 <tr><td class="index" align="center"><a class="index" href="/reelings.php"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/reelings.php">Рейлинги</a></td></tr>
-</table></td></tr>
-<tr><td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
+<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
+</table></td></tr>
+<tr><td><table style="margin-top: 5px" class="index">
 <tr><td class="index" align="center"><a class="index" href="/farkops.php"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/farkops.php">Фаркопы</a></td></tr></table></td></tr></table>
 <h1 align="center">Актуально для этого сезона!</h1>
@@ -127,26 +115,25 @@ echo "<title>$titleconst Добро пожаловать!</title>";
    </div>
 <h2 align="center">Наши бренды:</h2>
 <div align="center" class="brands">
-	<img src="/images/logos/thule.png" alt="thule" width="150px">
 	<img src="/images/logos/mont_blanc.jpg" alt="mont blanc" width="150px">
 	<img src="/images/logos/lux.png" alt="lux" width="150px">
 	<img src="/images/logos/atlant.png" alt="atlant" width="150px">
+	<img src="/images/logos/amos.jpg" alt="amos" width="150px">
 </div>
 <div align="center" class="brands">
-<img src="/images/logos/amos.jpg" alt="amos" width="150px">
 <img src="/images/logos/yuago.png" alt="yuago" width="150px">
 <img src="/images/logos/atera.png" alt="atera" width="150px">
 <img src="/images/logos/menabo.jpg" alt="menabo" width="150px">
+<img src="/images/logos/yakima.png" alt="yakima" width="150px">
 </div>
 <div align="center" class="brands">
-<img src="/images/logos/yakima.png" alt="yakima" width="150px">
+<img src="/images/logos/vetlan.png" alt="vetlan" width="150px">
 <img src="/images/logos/turino.jpg" alt="turino" width="150px">
 <img src="/images/logos/inno.jpg" alt="inno" width="150px">
 <img src="/images/logos/whispbar.png" alt="whispbar" width="150px">
 </div>
 <div align="center" class="brands">
 <img src="/images/logos/myravei.png" alt="myravei" width="150px">
-<img src="/images/logos/vetlan.png" alt="vetlan" width="150px">
 </div>
 <p>Для многих современных людей автомобиль является не только свидетельством жизненного успеха, но и незаменимым помощником для перевозки грузов. Имея личное авто можно без проблем осуществить перевозку вещей в загородный дом или дачу или же снаряжения при занятиях активным отдыхом. Так, для осуществления грузоперевозок на легковом автомобиле существует багажник, устанавливаемый на крышу авто. Это может быт как простая и эстетичная конструкция, состоящая из двух дуг, так и более сложная, к примеру, автобокс или багажник для лодки. Наш магазин предлагает вашему вниманию автобагажники от известных мировых брендов. Если вам необходимо перевезти вещи или вы занимаетесь активным отдыхом – то вы попали по назначению. У нас вы сможете подобрать именно то, что вам нужно: автомобильные багажники, автомобильные боксы, которые станут незаменимыми помощниками при перевозке вещей и спортивного снаряжения. А для того, чтобы обеспечить вам комфорт и безопасность передвижения по зимней трассе, мы предлагаем вашему вниманию цепи противоскольжения от мировых производителей.</p>
 <h3 align="center">Универсальные багажники</h3>
@@ -155,7 +142,7 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 <p>Такие багажники представляют собой конструкции в виде кейсов, которые изготавливаются из прочного толстого пластика. Такая конструкция позволяет полностью обезопасить ваш груз от атмосферных осадков, уличной грязи и злоумышленников, поскольку устройство оснащается надежным замком.</p>
 <h3 align="center">Специальные приспособления</h3>
 <p>К ним относится велокрепление, багажник для лодки и прочие всевозможные приспособления, специализированные под перевозку определённого вида грузов. Такие конструкции отлично подходят для тех, кто любит активный отдых или занимается определённым видом спорта. В данном случае, универсальный багажник окажется не очень удобным, а потому, современные производители разработали ряд специальных приспособлений и насадок к ним, обеспечивающих комфортную и безопасную перевозку конкретного вида снаряжения. Все большее количество людей в наши дни открывают для себя удобство и функциональность автобагажников. Современные конструкции совершенно не портят внешний вид вашего авто и выглядят эстетично, позволяя значительно расширить его функциональные возможности. К тому же у нас существует такая услуга, как прокат багажников и автобовков, что будет отличным вариантом в том случае, если автобагажник нужен вам единоразово и вы не видите прямой необходимости в его покупке.</p>
-<p class="brands" align="center">THULE (Туле) Mont Blanc (Монблан) Lux (Люкс) Atlant (Атлант) Amos (Амос) Yuago (ЯГО) Atera (Атера) Menabo (Менабо) Yakima (Якима) Turino (Турино) Inno (Инно) Whispbar (Виспбар) Myravei (Муравей) Vetlan (Ветлан)</p>
+<p class="brands" align="center">Mont Blanc (Монблан) Lux (Люкс) Atlant (Атлант) Amos (Амос) Yuago (ЯГО) Atera (Атера) Menabo (Менабо) Yakima (Якима) Turino (Турино) Inno (Инно) Whispbar (Виспбар) Myravei (Муравей) Vetlan (Ветлан)</p>
 </div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
