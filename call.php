@@ -21,4 +21,5 @@ header('Refresh: 3; URL=/');
 } 
 else { 
     echo "<center>Произошла ошибка :(<br><a href='/'>Вернуться назад</a>";
-}?>
+}
+include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>

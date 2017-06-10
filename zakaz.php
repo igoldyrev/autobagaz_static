@@ -40,4 +40,5 @@ header('Refresh: 3; URL=/zayavka.php');
 } 
 else { 
     echo "<center>При отправке заказа возникли проблемы :(<br><a href='/zayavka.php'>Вернуться назад</a>";
-}?>
+}
+include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
