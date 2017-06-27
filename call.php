@@ -1,4 +1,10 @@
 <?php
+// Соединение с БД MySQL
+$sql = mysql_connect('localhost', '9082410193', 'GfhjkmDatabase');
+mysql_select_db('9082410193_zakaz', $sql);
+mysql_query ("set_client='utf8'");//Следующие 2 строки решают проблему с кодировкой.
+mysql_query ("SET NAMES utf8");
+
 //В файле на первом этапе нужно принять данные из пост массива. Для этого создаем переменные
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -11,7 +17,13 @@ $phone = urldecode($phone);
 //Третьей функцией мы удалим пробелы с начала и конца строки, если таковые имеются
 $name = trim($name);
 $phone = trim($phone);
-
+//Заносим данные из формы в переменные
+$name = $_REQUEST['name'];
+$phone = $_REQUEST['phone'];
+//Создаем запрос в базу данных
+$sql_insert = "INSERT INTO calls (name, phone)" . 
+"VALUES('{$name}', '{$phone}');";
+mysql_query($sql_insert);
 
 if (mail("autobagaz@yandex.ru", "Звонок с сайта!!!", "Имя:".$name.";
 Телефон: ".$phone ,
