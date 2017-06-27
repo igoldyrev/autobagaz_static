@@ -5,7 +5,6 @@ mysql_select_db('9082410193_zakaz', $sql);
 mysql_query ("set_client='utf8'");//Следующие 2 строки решают проблему с кодировкой.
 mysql_query ("SET NAMES utf8");
 
-
 //В файле на первом этапе нужно принять данные из пост массива. Для этого создаем переменные
 $name = $_POST['name'];
 $phone = $_POST['phone'];
