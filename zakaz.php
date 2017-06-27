@@ -45,6 +45,10 @@ $sql_insert = "INSERT INTO zakaz (name, phone, auto, kuzov, year, text)" .
 "VALUES('{$name}', '{$phone}', '{$auto}', '{$kuzov}', '{$year}', '{$text}');";
 mysql_query($sql_insert);
 
+$sql_users = "INSERT INTO users (name, phone)" . 
+"VALUES('{$name}', '{$phone}');";
+mysql_query($sql_users);
+
 if (mail("autobagaz@yandex.ru", "Заказ с сайта", "Имя:".$name.";
 Телефон: ".$phone.";
 Марка машины: ".$auto.";

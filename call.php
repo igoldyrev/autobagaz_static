@@ -25,6 +25,10 @@ $sql_insert = "INSERT INTO calls (name, phone)" .
 "VALUES('{$name}', '{$phone}');";
 mysql_query($sql_insert);
 
+$sql_users = "INSERT INTO users (name, phone)" . 
+"VALUES('{$name}', '{$phone}');";
+mysql_query($sql_users);
+
 if (mail("autobagaz@yandex.ru", "Звонок с сайта!!!", "Имя:".$name.";
 Телефон: ".$phone ,
 "From: autobagaz@yandex.ru \r\n"))
