@@ -29,6 +29,15 @@ echo "<title>$titleconst Комиссионка</title>";
 <img class="img_main" src="/images/komissionka/logan-2.jpg" srcset="
 /images/komissionka/logan-2.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="багажник для Renault Logan/Sandero"></div>
 <p><b>Цена 900 рублей</b></p>
+<p>Аэродинамические дуги для рейлингов, состояние хорошее, цвет черный.</p>
+<div class="img_div">
+<img class="img_main" src="/images/komissionka/aero-1.jpg" srcset="
+/images/komissionka/aero-1.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Аэродинамические дуги для рейлингов">
+<img class="img_main" src="/images/komissionka/aero-2.jpg" srcset="
+/images/komissionka/aero-2.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Аэродинамические дуги для рейлингов">
+<img class="img_main" src="/images/komissionka/aero-3.jpg" srcset="
+/images/komissionka/aero-3.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Аэродинамические дуги для рейлингов"></div>
+<p><b>Цена 1500 рублей</b></p>
 <h2>Фаркопы</h2>
 <p>Фаркоп на Mitsubishi Lanser 10, 2007-2012, новый.</p>
 <div class="img_div">
