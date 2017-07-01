@@ -12,6 +12,113 @@ echo "<title>$titleconst Галерея работ</title>";
 </div>
 <div id="content">
 <?php
+$prewiew = [
+	[
+		'id' => '1',
+		'name' => 'Lada Xray',
+		'img' => '<img class="img_main" src="/images/gallery/20170303_1_xray.jpg"  alt="Lada Xray" width="180px">',
+		],
+		[
+		'id' => 2,
+		'name' => 'BMW X5',
+		'img' => '<img class="img_main" src="/images/gallery/20170429_1_bmwx5.jpg" alt="BMW X5" width="180px">',
+		],
+		[
+		'id' => 3,
+		'name' => 'Mazda MPV',
+		'img' => '<img class="img_main" src="/images/gallery/20170511_1_mpv.jpg" alt="Mazda MPV" width="180px">',
+		],
+		[
+		'id' => 4,
+		'name' => 'UAZ Patriot',
+		'img' => '<img class="img_main" src="/images/gallery/20170513_1_patriot.jpg" alt="UAZ Patriot" width="180px">',
+		],
+		[
+		'id' => 5,
+		'name' => 'Volkswagen Jetta',
+		'img' => '<img class="img_main" src="/images/gallery/20170517_1_jetta.jpg" alt="Volkswagen Jetta" width="180px">',
+		],
+		[
+		'id' => 6,
+		'name' => 'Nissan X-Trail',
+		'img' => '<img class="img_main" src="/images/gallery/20170517_1_xtrail.jpg" alt="Nissan X-Trail" width="180px">',
+		],
+		[
+		'id' => 7,
+		'name' => 'Lada 2111',
+		'img' => '<img class="img_main" src="/images/gallery/20170525_1_2111.jpg" alt="Lada 2111" width="180px">',
+		],
+		[
+		'id' => 8,
+		'name' => 'Lada Largus',
+		'img' => '<img class="img_main" src="/images/gallery/20170525_1_lada.jpg" alt="Lada Largus" width="180px">',
+		],
+		[
+		'id' => 9,
+		'name' => 'Ford Focus 2',
+		'img' => '<img class="img_main" src="/images/gallery/20170528_1_ford.jpg" alt="Ford Focus 2" width="180px">',
+		],
+		[
+		'id' => 10,
+		'name' => 'Kia Seed',
+		'img' => '<img class="img_main" src="/images/gallery/20170602_1_seed.jpg" alt="Kia Seed" width="180px">',
+		],
+		[
+		'id' => 11,
+		'name' => 'Lada Xray',
+		'img' => '<img class="img_main" src="/images/gallery/20170602_1_xray.jpg" alt="Lada Xray" width="180px">',
+		],
+		[
+		'id' => 12,
+		'name' => 'Niva Chevrolet',
+		'img' => '<img class="img_main" src="/images/gallery/20170611_1_niva.jpg" alt="Niva Chevrolet" width="180px">',
+		],
+		[
+		'id' => 13,
+		'name' => 'Kia Rio',
+		'img' => '<img class="img_main" src="/images/gallery/20170616_1_rio.jpg" alt="Kia Rio" width="180px">',
+		],
+		[
+		'id' => 14,
+		'name' => 'Lada 2107',
+		'img' => '<img class="img_main" src="/images/gallery/20170617_1_2107.jpg" alt="Lada 2107" width="180px">',
+		],
+		[
+		'id' => 15,
+		'name' => 'Mitsubisi Lancer',
+		'img' => '<img class="img_main" src="/images/gallery/20170617_1_lancer.jpg" alt="Mitsubisi Lancer" width="180px">',
+		],
+		[
+		'id' => 16,
+		'name' => 'Subaru Outback',
+		'img' => '<img class="img_main" src="/images/gallery/20170617_1_outback.jpg" alt="Subaru Outback" width="180px">',
+		],
+		[
+		'id' => 17,
+		'name' => 'Lada 2111',
+		'img' => '<img class="img_main" src="/images/gallery/20170621_1_2111.jpg" alt="Lada 2111" width="180px">',
+		],
+		[
+		'id' => 18,
+		'name' => 'Volkswagen Polo',
+		'img' => '<img class="img_main" src="/images/gallery/20170621_1_polo.jpg" alt="Volkswagen Polo" width="180px">',
+		],
+		[
+		'id' => 19,
+		'name' => 'BMW X5',
+		'img' => '<img class="img_main" src="/images/gallery/20170621_1_x5.jpg" alt="BMW X5" width="180px">',
+		],
+		[
+		'id' => 20,
+		'name' => 'Chevrolet Niva',
+		'img' => '<img class="img_main" src="/images/gallery/20170623_1_niva.jpg" alt="Chevrolet Niva" width="180px">',
+		],
+		[
+		'id' => 21,
+		'name' => 'Lifan X50',
+		'img' => '<img class="img_main" src="/images/gallery/20170623_1_x50.jpg" alt="Lifan X50" width="180px">',
+		],
+];
 $gallery = [
 		[
 		'id' => 1,
@@ -187,6 +294,19 @@ $gallery = [
 
 echo "<h1>Галерея работ</h1>";
 echo "<p>В этом разделе приведены фотографии наших клиентов, которые когда-либо приобретали у нас багажник или автобокс. Как Вы видите, у нас действительно есть выбор практически на любой автомобиль!</p>";
+
+	$auto = $_GET['auto'];
+	
+	if (!isset($auto)) {
+		foreach ($prewiew as $block): ?>
+	<div class="gallery">
+	<div class="img_div">
+		<?php echo $block['img']; ?>
+	</div>
+	<h3><?php echo $block['name']; ?></h3></div>
+<?php endforeach; 
+	}
+
 foreach ($gallery as $photos): ?>
 	<h3><?php echo $photos['name']; ?></h3>
 	<div class="img_div">
