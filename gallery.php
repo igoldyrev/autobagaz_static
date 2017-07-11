@@ -325,7 +325,7 @@ echo "<h1>Галерея работ</h1>";
 		<?php echo $block['img']; ?>
 	</div>
 	<div align="center">
-	<a href="gallery.php?auto=<?php echo $block['pagename']; ?>"><?php echo $block['name']; ?></a></div></div>
+	<a href="gallery?auto=<?php echo $block['pagename']; ?>"><?php echo $block['name']; ?></a></div></div>
 <?php endforeach; 
 	} elseif ($auto == 'xray0303') {
 	 ?> <h3> <?php echo $gallery[0][name]; ?> </h3> 
