@@ -70,11 +70,11 @@
 @media screen and (max-width: 480px) {
 	.modal {
 		width: 98%;
-		height: 350px;
+		height: 370px;
 		left: 1%;
 		margin-left: 0px;
 	}
 	.better-placeholder__input_call {
-		width: 370px;
+		width: 330px;
 	}
 }
