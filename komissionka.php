@@ -42,6 +42,24 @@ $bagazhniki = [
 			/images/komissionka/aero-3.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Аэродинамические дуги для рейлингов">',
 			'price' => 'Цена 1500 рублей',
 		],
+		[
+			'id' => '4',
+			'name' => 'Багажник для Chevrolet Niva, состояние хорошее, цвет черный.',
+			'img1' => '<img class="img_main" src="/images/komissionka/chevrolet-niva-1.jpg" srcset="
+			/images/komissionka/chevrolet-niva-1.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Багажник для Chevrolet Niva">',
+			'img2' => '<img class="img_main" src="/images/komissionka/chevrolet-niva-2.jpg" srcset="
+			/images/komissionka/chevrolet-niva-2.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Багажник для Chevrolet Niva">',
+			'price' => 'Цена 1500 рублей',
+		],
+		[
+			'id' => '5',
+			'name' => 'Опоры для багажника THULE, состояние хорошее, цвет черный.',
+			'img1' => '<img class="img_main" src="/images/komissionka/thule-1.jpg" srcset="
+			/images/komissionka/thule-1.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Опоры THULE">',
+			'img2' => '<img class="img_main" src="/images/komissionka/thule-2.jpg" srcset="
+			/images/komissionka/thule-2.jpg 3000w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Опоры THULE">',
+			'price' => 'Цена 7000 рублей',
+		],
 ];
 $farkops = [
 		[
@@ -72,12 +90,14 @@ $korzins = [
 		],
 ];
 
+echo "<h1>Комиссионка</h1>";
+echo "<p>В этом разделе мы продаем б/у багажники, автобоксы и аксессуары в рабочем состоянии. Часть багажников - использовались в прокате, часть - были оставлены на реализацию нашими клиентами. В течении 2-х недель вы можете вернуть багажник, если он вам не подойдет или окажется неисправен.</p>";
 
 ?>
 
 
-<h1>Комиссионка</h1>
-<p>В этом разделе мы продаем б/у багажники, автобоксы и аксессуары в рабочем состоянии. Часть багажников - использовались в прокате, часть - были оставлены на реализацию нашими клиентами. В течении 2-х недель вы можете вернуть багажник, если он вам не подойдет или окажется неисправен.</p>
+
+
 <p>Если у вас есть ненужный багажник - мы его купим.</p>
 <h2>Автомобильные багажники</h2>
 <p>Багажник Д-1, состояние отличное, после использования, цвет черный.</p>
