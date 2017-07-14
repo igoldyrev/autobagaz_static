@@ -12,7 +12,7 @@ echo "<title>$titleconst Каталог</title>";
 </div>
 <div id="content">
 <h1 align="center">Каталог</h1>
-<p style="padding: 5px;line-height:1,5">Мы предлагаем <b>универсальные багажные системы</b> THULE (Швеция), Mont Blanc (Швеция), Menabo (Италия), Amos (Польша), Atera (Германия), Атлант, Муравей, Lux (Россия), цепи противоскольжения, тягово-сцепные устройства (фаркопы).</p>
+<p style="padding: 5px;line-height:1,5">Мы предлагаем <b>универсальные багажные системы</b> Mont Blanc (Швеция), Menabo (Италия), Amos (Польша), Atera (Германия), Атлант, Муравей, Lux (Россия), цепи противоскольжения, тягово-сцепные устройства (фаркопы).</p>
 <table class="catalog">
 <tr><td width="30%" class="catalog" align="center"><a class="catalog" href="/autobagazhniki.php"><img class="catalog" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="150px"></a></td><td class="catalog" align="center"><a href="/autobagazhniki.php">Автобагажники</a></td></tr>
 <tr><td width="30%" class="catalog" align="center"><a class="catalog" href="/autobox.php"><img class="catalog" src="/images/index/2_autobox.jpg" alt="autobox" width="150px"></a></td><td class="catalog" align="center"><a href="/autobox.php">Автомобильные боксы</a></td></tr>

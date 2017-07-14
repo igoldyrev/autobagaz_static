@@ -149,6 +149,20 @@ table.index {
 .index a:hover {
 	text-decoration: underline;
 }
+/* Оформление галереи */
+div.gallery {
+	border: 2px solid #D8D8D8;
+	margin: 2px 5px 2px 5px;
+	height: auto;
+	width: 200px;
+	display: inline-block;
+}
+.gallery a {
+	text-decoration: none;
+}
+.gallery a:hover {
+	text-decoration: underline;
+}
 /* Каталог */
 table.catalog {
 	border: 2px solid #D8D8D8;

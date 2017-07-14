@@ -15,90 +15,90 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 
 <table style="margin-top: 10px" class="index1680" align="center"><tr><td>
 <table class="index">
-<tr><td class="index" align="center"><a class="index" href="/autobagazhniki.php"><img class="index" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/autobagazhniki.php">Автобагажники</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/autobagazhniki"><img class="index" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/autobagazhniki">Автобагажники</a></td></tr>
 </table></td>
 <td><table class="index">
-<tr><td class ="index" align="center"><a class="index" href="/autobox.php"><img class="index" src="/images/index/2_autobox.jpg" alt="autobox" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/autobox.php">Автомобильные боксы</a></td></tr>
+<tr><td class ="index" align="center"><a class="index" href="/autobox"><img class="index" src="/images/index/2_autobox.jpg" alt="autobox" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/autobox">Автомобильные боксы</a></td></tr>
 </table></td>
 <td><table class="index">
-<tr><td class ="index" align="center"><a class="index" href="/velokreplenya.php"><img class="index" src="/images/index/3_velokreplenya.jpg" alt="velokreplenya" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/velokreplenya.php">Велокрепления</a></td></tr>
+<tr><td class ="index" align="center"><a class="index" href="/velokreplenya"><img class="index" src="/images/index/3_velokreplenya.jpg" alt="velokreplenya" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/velokreplenya">Велокрепления</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/kreplenya-dlya-lyzh-shoubord.php"><img class="index" src="/images/index/4_lyzh_kreplenya.jpg" alt="lyzhnye kreplenya" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord.php">Крепления для лыж и сноубордов</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/kreplenya-dlya-lyzh-shoubord"><img class="index" src="/images/index/4_lyzh_kreplenya.jpg" alt="lyzhnye kreplenya" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord">Крепления для лыж и сноубордов</a></td></tr>
 </table></td></tr>
 <tr><td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/reelings.php"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/reelings.php">Рейлинги</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/reelings"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/reelings">Рейлинги</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/braslets"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/braslets">Браслеты противоскольжения</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/farkops.php"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/farkops.php">Фаркопы</a></td></tr></table></td></tr></table>
+<tr><td class="index" align="center"><a class="index" href="/farkops"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/farkops">Фаркопы</a></td></tr></table></td></tr></table>
 <table style="margin-top: 10px" class="index768" align="center"><tr><td>
 <table class="index">
-<tr><td class="index" align="center"><a class="index" href="/autobagazhniki.php"><img class="index" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/autobagazhniki.php">Автобагажники</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/autobagazhniki"><img class="index" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/autobagazhniki">Автобагажники</a></td></tr>
 </table></td>
 <td><table class="index">
-<tr><td class ="index" align="center"><a class="index" href="/autobox.php"><img class="index" src="/images/index/2_autobox.jpg" alt="autobox" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/autobox.php">Автомобильные боксы</a></td></tr>
+<tr><td class ="index" align="center"><a class="index" href="/autobox"><img class="index" src="/images/index/2_autobox.jpg" alt="autobox" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/autobox">Автомобильные боксы</a></td></tr>
 </table></td>
 <td><table class="index">
-<tr><td class ="index" align="center"><a class="index" href="/velokreplenya.php"><img class="index" src="/images/index/3_velokreplenya.jpg" alt="velokreplenya" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/velokreplenya.php">Велокрепления</a></td></tr>
+<tr><td class ="index" align="center"><a class="index" href="/velokreplenya"><img class="index" src="/images/index/3_velokreplenya.jpg" alt="velokreplenya" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/velokreplenya">Велокрепления</a></td></tr>
 </table></td></tr>
 <tr><td>
 <table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/kreplenya-dlya-lyzh-shoubord.php"><img class="index" src="/images/index/4_lyzh_kreplenya.jpg" alt="lyzhnye kreplenya" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord.php">Крепления для лыж и сноубордов</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/kreplenya-dlya-lyzh-shoubord"><img class="index" src="/images/index/4_lyzh_kreplenya.jpg" alt="lyzhnye kreplenya" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord">Крепления для лыж и сноубордов</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/reelings.php"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/reelings"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/reelings.php">Рейлинги</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/braslets"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
 <tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
 </table></td></tr>
 <tr><td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/farkops.php"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/farkops.php">Фаркопы</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/farkops"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/farkops">Фаркопы</a></td></tr>
 </table></td></tr></table>
 <table class="index320" align="center"><tr><td>
 <table class="index">
-<tr><td class="index" align="center"><a class="index" href="/autobagazhniki.php"><img class="index" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/autobagazhniki.php">Автобагажники</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/autobagazhniki"><img class="index" src="/images/index/1_autobagazniki.jpg" alt="autobagazhniki" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/autobagazhniki">Автобагажники</a></td></tr>
 </table></td>
 <td><table class="index">
-<tr><td class ="index" align="center"><a class="index" href="/autobox.php"><img class="index" src="/images/index/2_autobox.jpg" alt="autobox" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/autobox.php">Автомобильные боксы</a></td></tr>
+<tr><td class ="index" align="center"><a class="index" href="/autobox"><img class="index" src="/images/index/2_autobox.jpg" alt="autobox" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/autobox">Автомобильные боксы</a></td></tr>
 </table></td></tr>
 <tr><td><table class="index">
-<tr><td class ="index" align="center"><a class="index" href="/velokreplenya.php"><img class="index" src="/images/index/3_velokreplenya.jpg" alt="velokreplenya" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/velokreplenya.php">Велокрепления</a></td></tr>
+<tr><td class ="index" align="center"><a class="index" href="/velokreplenya"><img class="index" src="/images/index/3_velokreplenya.jpg" alt="velokreplenya" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/velokreplenya">Велокрепления</a></td></tr>
 </table></td>
 <td><table class="index">
-<tr><td class="index" align="center"><a class="index" href="/kreplenya-dlya-lyzh-shoubord.php"><img class="index" src="/images/index/4_lyzh_kreplenya.jpg" alt="lyzhnye kreplenya" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord.php">Крепления для лыж и сноубордов</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/kreplenya-dlya-lyzh-shoubord"><img class="index" src="/images/index/4_lyzh_kreplenya.jpg" alt="lyzhnye kreplenya" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/kreplenya-dlya-lyzh-shoubord">Крепления для лыж и сноубордов</a></td></tr>
 </table></td></tr>
 <tr><td><table class="index">
-<tr><td class="index" align="center"><a class="index" href="/reelings.php"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/reelings.php">Рейлинги</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/reelings"><img class="index" src="/images/index/6_reelings.jpg" alt="reelings" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/reelings">Рейлинги</a></td></tr>
 </table></td>
 <td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/braslets.php"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/braslets.php">Браслеты противоскольжения</a></td></tr>
+<tr><td class="index" align="center"><a class="index" href="/braslets"><img class="index" src="/images/index/7_braslet.jpg" alt="braslet" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/braslets">Браслеты противоскольжения</a></td></tr>
 </table></td></tr>
 <tr><td><table style="margin-top: 5px" class="index">
-<tr><td class="index" align="center"><a class="index" href="/farkops.php"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
-<tr><td align="center"><a href="/farkops.php">Фаркопы</a></td></tr></table></td></tr></table>
+<tr><td class="index" align="center"><a class="index" href="/farkops"><img class="index" src="/images/index/8_farkops.jpg" alt="farkops" width="175px"></a></td></tr>
+<tr><td align="center"><a href="/farkops">Фаркопы</a></td></tr></table></td></tr></table>
 <h1 align="center">Актуально для этого сезона!</h1>
    <div class="slides">
     <ul> <!-- Слайды -->

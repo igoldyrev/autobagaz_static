@@ -18,9 +18,9 @@ echo "<title>$titleconst Велокрепления</title>";
 <p>Условно, все велокрепления можно разделить на несколько типов по способу их установки на автомобиль:</p>
 <div>
 <hr width="70%" align="left">
-<p><a href="velokreplenya-na-kryshy.php">Велокрепления на крышу</a></p>
+<p><a href="velokreplenya-na-kryshy">Велокрепления на крышу</a></p>
 <hr width="70%" align="left">
-<p><a href="velokreplenya-na-farkop.php">Велокрепления на фаркоп</a></p>
+<p><a href="velokreplenya-na-farkop">Велокрепления на фаркоп</a></p>
 <hr width="70%" align="left">
 </div></div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>

@@ -13,40 +13,38 @@ echo "<title>$titleconst Карта сайта</title>";
 <div id="content">
 <h1 align="center">Карта сайта</h1>
 <ul>
-<li><a href="/" target="_parent">Главная страница</a></li>
-<li><a href="/catalog.php" target="_parent">Каталог</a></li>
+<li><a href="/" target="_parent">Каталог</a></li>
 	<ul>
-		<li><a href="/autobagazhniki.php" target="_parent">Автобагажники</a></li>
-		<li><a href="/autobox.php" target="_parent">Автомобильные боксы</a></li>
+		<li><a href="/autobagazhniki" target="_parent">Автобагажники</a></li>
+		<li><a href="/autobox" target="_parent">Автомобильные боксы</a></li>
 			<ul>
-				<li><a href="/vetlan.php" target="_parent">Автобоксы Ветлан (Пермь)</a></li>
-				<li><a href="/atlant.php" target="_parent">Автобоксы Атлант</a></li>
+				<li><a href="/vetlan" target="_parent">Автобоксы Ветлан (Пермь)</a></li>
+				<li><a href="/atlant" target="_parent">Автобоксы Атлант</a></li>
 					<ul>
-						<li><a href="/discovery.php" target="_parent">Автобоксы DISCOVERY</a></li>
-						<li><a href="/serya-atlant.php" target="_parent">Серия Атлант</a></li>
+						<li><a href="/discovery" target="_parent">Автобоксы DISCOVERY</a></li>
+						<li><a href="/serya-atlant" target="_parent">Серия Атлант</a></li>
 					</ul>
-				<li><a href="/yuago.php" target="_parent">Автобоксы Yuago</a></li>
-				<li><a href="/turino.php" target="_parent">Автобоксы Турино</a></li>
-				<li><a href="/lux.php" target="_parent">Lux, Россия</a></li>
-				<li><a href="/thule.php" target="_parent">Автобоксы THULE (Швеция)</a></li>			
+				<li><a href="/yuago" target="_parent">Автобоксы Yuago</a></li>
+				<li><a href="/turino" target="_parent">Автобоксы Турино</a></li>
+				<li><a href="/lux" target="_parent">Lux, Россия</a></li>			
 			</ul>	
-		<li><a href="/velokreplenya.php" target="_parent">Велокрепления</a></li>
+		<li><a href="/velokreplenya" target="_parent">Велокрепления</a></li>
 			<ul>
-				<li><a href="/velokreplenya-na-kryshy.php" target="_parent">Велокрепления на крышу</a></li>
-				<li><a href="/velokreplenya-na-farkop.php" target="_parent">Велокрепления на фаркоп</a></li>
+				<li><a href="/velokreplenya-na-kryshy" target="_parent">Велокрепления на крышу</a></li>
+				<li><a href="/velokreplenya-na-farkop" target="_parent">Велокрепления на фаркоп</a></li>
 			</ul>
-		<li><a href="/kreplenya-dlya-lyzh-shoubord.php"" target="_parent">Крепления для лыж и сноубордов</a></li>
-		<li><a href="/thule.php" target="_parent">Багажные системы THULE (Швеция)</a></li>
-		<li><a href="/reelings.php" target="_parent">Рейлинги</a></li>
-		<li><a href="/braslets.php" target="_parent">Браслеты противоскольжения</a></li>
-		<li><a href="/farkops.php" target="_parent">Фаркопы</a></li>
+		<li><a href="/kreplenya-dlya-lyzh-shoubord"" target="_parent">Крепления для лыж и сноубордов</a></li>
+		<li><a href="/reelings" target="_parent">Рейлинги</a></li>
+		<li><a href="/braslets" target="_parent">Браслеты противоскольжения</a></li>
+		<li><a href="/farkops" target="_parent">Фаркопы</a></li>
 	</ul>
-<li><a href="/podbor.php" target="_parent">Вопрос - ответ</a></li>
-<li><a href="/prokat.php" target="_parent">Прокат</a></li>
-<li><a href="/zayavka.php" target="_parent">Оставить заявку</a></li>
-<li><a href="/contacts.php" target="_parent">Контакты</a></li>
+<li><a href="/podbor" target="_parent">Вопрос - ответ</a></li>
+<li><a href="/prokat" target="_parent">Прокат</a></li>
+<li><a href="/gallery" target="_parent">Галерея</a></li>
+<li><a href="/zayavka" target="_parent">Оставить заявку</a></li>
+<li><a href="/contacts" target="_parent">Контакты</a></li>
 <li><a href="/news.php" target="_parent">Архив новостей</a></li>
-<li><a href="sitemap.php" target="_parent">Карта сайта</a></li>
+<li><a href="sitemap" target="_parent">Карта сайта</a></li>
 </ul>
 </div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
