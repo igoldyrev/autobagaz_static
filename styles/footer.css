@@ -1,41 +1,25 @@
 /* Подвал сайта */
 footer {
 	margin-top: 15px;
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: auto;
-	grid-row-gap: 0px;
-	grid-template-areas: "copyright" "about" "links" "top";
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
 	background: #0a2a0a;
-	height: 80px;
+	height: 40px;
 	width: 100%;
 	position: relative;
 	z-index: 3;
 	}
-	
-.copyright {
-	grid-area: copyright;
-}
-
-.about {
-	grid-area: about;
-}
-
-.links {
-	grid-area: links;
-}
-
-.top {
-	grid-area: top;
-}
-
-.copyright ul {
+footer ul {
 	padding: 0;
 	margin: auto;
 	width: auto;
+	height: 40px;
 }
-.copyright li {
-	display: block;
+footer li {
+	display: inline-block;
+	width: 250px;
 	text-align: center;
 	text-decoration: none;
 	line-height: 40px;
