@@ -41,8 +41,14 @@
 }
 
 .links li {
+	color: #fff;
+	text-decoration: none;
 	padding-top: 5px;
 	text-align: center;
+}
+
+.links label {
+	text-decoration: none;
 }
 
 .social ul {
