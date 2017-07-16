@@ -18,6 +18,11 @@
 	text-decoration: none;
 }
 
+.footer i {
+	color: #fff;
+	padding-right: 15px;
+}
+
 .copyright ul {
 	list-style-type: none;
 	margin: 0px;
@@ -40,8 +45,15 @@
 	text-align: center;
 }
 
-.social {
-	background: red;
+.social ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.social li {
+	padding-top: 5px;
+	text-align: center;
 }
 
 .top {
