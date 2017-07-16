@@ -37,6 +37,9 @@
 <link rel="stylesheet" href="/styles/form.css">
 <link rel="stylesheet" href="/styles/modalcall.css">  
 
+<!-- Таблица стилей для font-awesome -->
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+
 <!-- Scripts -->
 <!-- Put this script tag to the <head> of your page -->
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
