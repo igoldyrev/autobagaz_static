@@ -74,7 +74,8 @@
 @media screen and (max-width: 480px) {
 	.rewiew {
 		width: 98%;
-		height: 370px;
+		height: 420px;
+		top: 35%;
 		left: 1%;
 		margin-left: 0px;
 	}
