@@ -1,3 +1,29 @@
+<input type="radio" id="rewiew-1__close" class="rewiew__control rewiew__control_close" name="rewiew-1">
+<input type="radio" id="rewiew-1__open" class="rewiew__control rewiew__control_open" name="rewiew-1">
+<label for="rewiew-1__close" class="rewiew__close-overlay"></label>
+<div class="rewiew">
+  <label for="rewiew-1__close" class="rewiew__close">X</label>
+  <div class="rewiew__header">
+    <h3>В этом окне Вы сможете оставить отзыв о нашей работе или написать какие-либо пожелания</h3>
+  </div>
+  <div class="rewiew__body">
+    <form action="/call.php" method="post">
+<span class="label_top">Ваше имя:</span>
+<div class="better-placeholder">
+  <input type="text" name="name" required="required" class="better-placeholder__rewiew" placeholder="Введите Ваше имя">
+  <label for="name" class="better-placeholder__label_rewiew">Введите Ваше имя</label>
+</div><br>
+<span class="label_top">Ваш отзыв или пожелания:</span>
+<div class="better-placeholder">
+  <textarea name="text" class="better-placeholder__rewiew rewiew_textarea" required="required" placeholder="Введите Ваш отзыв"></textarea>
+  <label for="phone" class="better-placeholder__label_rewiew">Введите Ваш отзыв</label>
+</div><br>
+<div align="center">
+<input class="input__button_rewiew" type="submit" value="Отправить">
+</div>
+</form>
+  </div>
+</div> 
 <footer>
 	<div class="footer">
 		<div class="copyright">
@@ -8,7 +34,7 @@
 		</div>
 		<div class="links">
 			<ul>
-				<li><a href="/zayavka">Напишите нам</a></li>
+				<li><label for="rewiew-1__open" class="rewiew__link">Написать отзыв</label></li>
 				<li><a href="/contacts">Контактная информация</a></li>
 				<li><a href="/news.php">Новости</a></li>
 				<li><a href="/gallery">Галерея работ</a></li>
@@ -20,7 +46,5 @@
 				<li><i class="fa fa-instagram fa-1x"></i><a href="https://instagram.com/autobagaz" target="_blank">Мы В Инстаграм</a></li>
 			</ul>
 		</div>
-		
-	
 	</div>
 </footer>
