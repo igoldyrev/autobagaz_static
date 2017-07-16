@@ -61,3 +61,14 @@
 	padding-top: 5px;
 	text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+	.footer {
+		grid-template-columns: auto;
+		grid-template-rows: 45px 1fr 55px;
+		height: auto;
+	}
+	.copyright + .links + .social {
+		padding-bottom: 10px;
+	}
+}
