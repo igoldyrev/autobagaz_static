@@ -36,6 +36,10 @@
 <link rel="stylesheet" href="/styles/slider.css">
 <link rel="stylesheet" href="/styles/form.css">
 <link rel="stylesheet" href="/styles/modalcall.css">  
+<link rel="stylesheet" href="/styles/rewiew.css">  
+
+<!-- Таблица стилей для font-awesome -->
+<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 
 <!-- Scripts -->
 <!-- Put this script tag to the <head> of your page -->
