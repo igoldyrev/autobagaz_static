@@ -3,16 +3,18 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-row-gap: 0px;
-	height: 80px;
+	height: 100px;
 	width: 100%;
 	background: #0a2a0a;
 	position: relative;
 	z-index: 3;
-	margin-top: 15px;
+	margin-top: 30px;
 	}
 
-.copyright {
-	background: #ffcccc;
+.footer a {
+	font-family: HelveticaThin;
+	color: #fff;
+	text-decoration: none;
 }
 
 .copyright ul {
@@ -26,8 +28,15 @@
 	text-align: center;
 }
 
-.links {
-	background: #lightblue;
+.links ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.links li {
+	padding-top: 5px;
+	text-align: center;
 }
 
 .social {
