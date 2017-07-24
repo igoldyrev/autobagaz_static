@@ -139,6 +139,12 @@ $prewiew = [
 		'pagename' => 'lifanx50',
 		'img' => '<img class="img_main" src="/images/gallery/20170623_1_x50.jpg" alt="Lifan X50" width="180px">',
 		],
+		[
+		'id' => 22,
+		'name' => 'Reno Logan',
+		'pagename' => 'renologan',
+		'img' => '<img class="img_main" src="/images/gallery/20170716_1_logan.jpg" alt="Reno Logan" width="180px">',
+		],
 ];
 $gallery = [
 		[
@@ -310,6 +316,12 @@ $gallery = [
 		'img1' => '<img class="img_main" src="/images/gallery/20170623_1_x50.jpg" srcset="/images/gallery/20170623_1_x50.jpg 2000w" alt="Lifan X50" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img2' => '<img class="img_main" src="/images/gallery/20170623_2_x50.jpg" srcset="/images/gallery/20170623_2_x50.jpg 2000w" alt="Lifan X50" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img3' => '<img class="img_main" src="/images/gallery/20170623_3_x50.jpg" srcset="/images/gallery/20170623_3_x50.jpg 2000w" alt="Lifan X50" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 22,
+		'name' => 'Reno Logan',
+		'img1' => '<img class="img_main" src="/images/gallery/20170716_1_logan.jpg" srcset="/images/gallery/20170716_1_logan.jpg 2000w" alt="Reno Logan" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170716_2_logan.jpg" srcset="/images/gallery/20170716_2_logan.jpg 2000w" alt="Reno Logan" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		],
 ];
 
@@ -579,8 +591,19 @@ echo "<h1>Галерея работ</h1>";
 				echo $gallery[20][img7];
 				echo $gallery[20][img8];
 				echo '</div>';
+	} elseif ($auto == 'renologan') {
+	?> <h3> <?php echo $gallery[21][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[21][img1]; 
+				echo $gallery[21][img2];
+				echo $gallery[21][img3];  
+				echo $gallery[21][img4];  
+				echo $gallery[21][img5];  
+				echo $gallery[21][img6];  
+				echo $gallery[21][img7];
+				echo $gallery[21][img8];
+				echo '</div>';
 	} 
-	
 ?>	
 </div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
