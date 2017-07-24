@@ -123,10 +123,9 @@ nav a {
 }
 .modal__link {
 	font-family: HelveticaRegular;
-	font-size: x-large;
+	font-size: large;
 	font-weight: 400;
 	line-height:1;
-	color: #FF0000;
 }
 /* Зачеркнутый текст */
 .strike {
