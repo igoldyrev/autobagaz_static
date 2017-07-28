@@ -145,6 +145,12 @@ $prewiew = [
 		'pagename' => 'renologan',
 		'img' => '<img class="img_main" src="/images/gallery/20170716_1_logan.jpg" alt="Reno Logan" width="180px">',
 		],
+		[
+		'id' => 23,
+		'name' => 'Lada Xray',
+		'pagename' => 'ladaxray2707',
+		'img' => '<img class="img_main" src="/images/gallery/20170727_6_xray.jpg" alt="Lada Xray" width="180px">',
+		],
 ];
 $gallery = [
 		[
@@ -322,6 +328,17 @@ $gallery = [
 		'name' => 'Reno Logan',
 		'img1' => '<img class="img_main" src="/images/gallery/20170716_1_logan.jpg" srcset="/images/gallery/20170716_1_logan.jpg 2000w" alt="Reno Logan" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img2' => '<img class="img_main" src="/images/gallery/20170716_2_logan.jpg" srcset="/images/gallery/20170716_2_logan.jpg 2000w" alt="Reno Logan" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 23,
+		'name' => 'Lada Xray',
+		'img1' => '<img class="img_main" src="/images/gallery/20170727_1_xray.jpg" srcset="/images/gallery/20170727_1_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170727_2_xray.jpg" srcset="/images/gallery/20170727_2_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170727_3_xray.jpg" srcset="/images/gallery/20170727_3_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170727_4_xray.jpg" srcset="/images/gallery/20170727_4_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170727_5_xray.jpg" srcset="/images/gallery/20170727_5_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img6' => '<img class="img_main" src="/images/gallery/20170727_6_xray.jpg" srcset="/images/gallery/20170727_6_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img7' => '<img class="img_main" src="/images/gallery/20170727_7_xray.jpg" srcset="/images/gallery/20170727_7_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		],
 ];
 
@@ -602,6 +619,18 @@ echo "<h1>Галерея работ</h1>";
 				echo $gallery[21][img6];  
 				echo $gallery[21][img7];
 				echo $gallery[21][img8];
+				echo '</div>';
+	} elseif ($auto == 'ladaxray2707') {
+	?> <h3> <?php echo $gallery[22][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[22][img1]; 
+				echo $gallery[22][img2];
+				echo $gallery[22][img3];  
+				echo $gallery[22][img4];  
+				echo $gallery[22][img5];  
+				echo $gallery[22][img6];  
+				echo $gallery[22][img7];
+				echo $gallery[22][img8];
 				echo '</div>';
 	} 
 ?>	
