@@ -1,0 +1,27 @@
+.good  {
+  width: 220px;
+  height: auto;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.good_img {
+  padding: 5px 10px 5px 10px;
+  width: 200px;
+}
+
+.button, .price {
+  text-align: center;
+}
+
+.strike_price {
+  text-decoration: line-through;
+	color: red; 
+}
+
+.good_button {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 7px;
+	border: 1px solid #A4A4A4;
+}
