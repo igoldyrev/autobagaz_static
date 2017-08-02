@@ -148,6 +148,13 @@ table.index {
 .index a:hover {
 	text-decoration: underline;
 }
+/* Документы в разделе проката */
+.docs {
+	border: 1px solid black;
+}
+.docs a, .docs i {
+	margin: 7px;
+}
 /* Оформление галереи */
 div.gallery {
 	border: 2px solid #D8D8D8;
