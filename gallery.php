@@ -163,6 +163,12 @@ $prewiew = [
 		'pagename' => 'ladaxray3007',
 		'img' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" alt="Lada Xray" width="180px">',
 		],
+		[
+		'id' => 26,
+		'name' => 'Hyundai Creta',
+		'pagename' => 'creta0108',
+		'img' => '<img class="img_main" src="/images/gallery/20170801_3_creta.jpg" alt="Hyundai Creta" width="180px">',
+		],
 ];
 $gallery = [
 		[
@@ -362,11 +368,21 @@ $gallery = [
 		[
 		'id' => 25,
 		'name' => 'Lada Xray',
-		'img1' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" srcset="/images/gallery/20170730_1_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
-		'img2' => '<img class="img_main" src="/images/gallery/20170730_2_xray.jpg" srcset="/images/gallery/20170730_2_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
-		'img3' => '<img class="img_main" src="/images/gallery/20170730_3_xray.jpg" srcset="/images/gallery/20170730_3_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
-		'img4' => '<img class="img_main" src="/images/gallery/20170730_4_xray.jpg" srcset="/images/gallery/20170730_4_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
-		'img5' => '<img class="img_main" src="/images/gallery/20170730_5_xray.jpg" srcset="/images/gallery/20170730_5_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img1' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" srcset="/images/gallery/20170730_1_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170730_2_xray.jpg" srcset="/images/gallery/20170730_2_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170730_3_xray.jpg" srcset="/images/gallery/20170730_3_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170730_4_xray.jpg" srcset="/images/gallery/20170730_4_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170730_5_xray.jpg" srcset="/images/gallery/20170730_5_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 26,
+		'name' => 'Hyundai Creta',
+		'img1' => '<img class="img_main" src="/images/gallery/20170801_1_creta.jpg" srcset="/images/gallery/20170801_1_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170801_2_creta.jpg" srcset="/images/gallery/20170801_2_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170801_3_creta.jpg" srcset="/images/gallery/20170801_3_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170801_4_creta.jpg" srcset="/images/gallery/20170801_4_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170801_5_creta.jpg" srcset="/images/gallery/20170801_5_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img6' => '<img class="img_main" src="/images/gallery/20170801_6_creta.jpg" srcset="/images/gallery/20170801_6_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		],
 ];
 
@@ -683,6 +699,20 @@ echo "<h1>Галерея работ</h1>";
 				echo $gallery[24][img6];  
 				echo $gallery[24][img7];
 				echo $gallery[24][img8];
+				echo '</div>';
+	} elseif ($auto == 'creta0108') {
+	?> <h3> <?php echo $gallery[25][name]; ?> </h3> 
+	<h4>Hyundai Creta без рейлинга</h4>
+	<div class="img_div"> <?php
+				echo $gallery[25][img1]; 
+				echo $gallery[25][img2]; ?>
+	<h4>Hyundai Creta с рейлингом</h4>
+		<?php	echo $gallery[25][img3];  
+				echo $gallery[25][img4];  
+				echo $gallery[25][img5];  
+				echo $gallery[25][img6];  
+				echo $gallery[25][img7];
+				echo $gallery[25][img8];
 				echo '</div>';
 	}
 ?>	
