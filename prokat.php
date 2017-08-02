@@ -24,8 +24,8 @@ echo "<title>$titleconst Прокат багажников и автобоксо
 	<li>В нашем магазине-прокате мы оформляем договор проката, квитанцию об оплате и выдаем Вам выбранное багажное оборудование.</li> 
 	<li>Чтобы сократить время визита в магазин-вы можете заполнить <a href ="/docs/Договор проката.doc">договор</a> и отправить нам его на электронный адрес <a href="mailto:autobagaz@yandex.ru">autobagaz@yandex.ru</a>
 </ol>
-<div align="center">
-	<i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i><a href ="/docs/Договор проката.doc">Скачать договор</a><br>
+<div class="docs">
+	<i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i><a href ="/docs/Договор проката.doc">Скачать договор проката</a><br>
 	<i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i><a href="/docs/Правила эксплуатации автобоксов.doc">Скачать правила эксплуатации автобоксов</a>
 </div>
 <p>Стоимость дня проката определяется исходя из времени пользования оборудованием:</p>
