@@ -98,6 +98,12 @@ h3 {
 	line-height: 1;
 	text-align: center;
 }
+h4 {
+	font-family: HelveticaBold;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+}
 p {
 	font-family: HelveticaRegular;
 	font-size: medium;
