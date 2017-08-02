@@ -151,6 +151,18 @@ $prewiew = [
 		'pagename' => 'ladaxray2707',
 		'img' => '<img class="img_main" src="/images/gallery/20170727_6_xray.jpg" alt="Lada Xray" width="180px">',
 		],
+		[
+		'id' => 24,
+		'name' => 'Skoda Rapid',
+		'pagename' => 'rapid2807',
+		'img' => '<img class="img_main" src="/images/gallery/20170728_1_rapid.jpg" alt="Skoda Rapid" width="180px">',
+		],
+		[
+		'id' => 25,
+		'name' => 'Lada Xray',
+		'pagename' => 'ladaxray3007',
+		'img' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" alt="Lada Xray" width="180px">',
+		],
 ];
 $gallery = [
 		[
@@ -339,6 +351,22 @@ $gallery = [
 		'img5' => '<img class="img_main" src="/images/gallery/20170727_5_xray.jpg" srcset="/images/gallery/20170727_5_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img6' => '<img class="img_main" src="/images/gallery/20170727_6_xray.jpg" srcset="/images/gallery/20170727_6_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img7' => '<img class="img_main" src="/images/gallery/20170727_7_xray.jpg" srcset="/images/gallery/20170727_7_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 24,
+		'name' => 'Skoda Rapid',
+		'img1' => '<img class="img_main" src="/images/gallery/20170728_1_rapid.jpg" srcset="/images/gallery/20170728_1_rapid.jpg 2000w" alt="Skoda Rapid" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170728_2_rapid.jpg" srcset="/images/gallery/20170728_2_rapid.jpg 2000w" alt="Skoda Rapid" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170728_3_rapid.jpg" srcset="/images/gallery/20170728_3_rapid.jpg 2000w" alt="Skoda Rapid" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 25,
+		'name' => 'Lada Xray',
+		'img1' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" srcset="/images/gallery/20170730_1_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170730_2_xray.jpg" srcset="/images/gallery/20170730_2_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170730_3_xray.jpg" srcset="/images/gallery/20170730_3_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170730_4_xray.jpg" srcset="/images/gallery/20170730_4_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170730_5_xray.jpg" srcset="/images/gallery/20170730_5_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		],
 ];
 
@@ -632,7 +660,31 @@ echo "<h1>Галерея работ</h1>";
 				echo $gallery[22][img7];
 				echo $gallery[22][img8];
 				echo '</div>';
-	} 
+	} elseif ($auto == 'rapid2807') {
+	?> <h3> <?php echo $gallery[23][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[23][img1]; 
+				echo $gallery[23][img2];
+				echo $gallery[23][img3];  
+				echo $gallery[23][img4];  
+				echo $gallery[23][img5];  
+				echo $gallery[23][img6];  
+				echo $gallery[23][img7];
+				echo $gallery[23][img8];
+				echo '</div>';
+	} elseif ($auto == 'ladaxray3007') {
+	?> <h3> <?php echo $gallery[24][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[24][img1]; 
+				echo $gallery[24][img2];
+				echo $gallery[24][img3];  
+				echo $gallery[24][img4];  
+				echo $gallery[24][img5];  
+				echo $gallery[24][img6];  
+				echo $gallery[24][img7];
+				echo $gallery[24][img8];
+				echo '</div>';
+	}
 ?>	
 </div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
