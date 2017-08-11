@@ -16,17 +16,17 @@ echo "<title>$titleconst Оставить заявку</title>";
 <form action="/zakaz.php" method="post">
 <span class="label_top">Ваше имя:</span>
 <div class="better-placeholder">
-  <input type="text" name="name" required="required" class="better-placeholder__input" placeholder="Введите Ваше имя">
+  <input type="text" name="name" required="required" pattern="[А-Яа-яЁё]{2,}" class="better-placeholder__input" placeholder="Введите Ваше имя">
   <label for="name" class="better-placeholder__label">Введите Ваше имя</label>
 </div><br>
 <span class="label_top">Ваш телефон:</span>
 <div class="better-placeholder">
-  <input type="text" name="phone" class="better-placeholder__input" required="required" placeholder="Введите номер телефона">
+  <input type="text" name="phone" class="better-placeholder__input" required="required" pattern="[0-9]{10,11}" placeholder="Введите номер телефона">
   <label for="phone" class="better-placeholder__label">Введите номер телефона</label>
 </div><br>
 <span class="label_top">Марка машины:</span>
 <div class="better-placeholder">
-  <input type="text" name="auto" class="better-placeholder__input" placeholder="Введите марку автомобиля">
+  <input type="text" name="auto" class="better-placeholder__input" pattern="^[A-Za-zА-Яа-яЁё0-9\s]+$" placeholder="Введите марку автомобиля">
   <label for="auto" class="better-placeholder__label">Введите марку автомобиля</label>
 </div><br>
 <span class="label_top">Тип кузова:</span>
@@ -40,12 +40,12 @@ echo "<title>$titleconst Оставить заявку</title>";
 </div><br>
 <span class="label_top">Год выпуска:</span>
 <div class="better-placeholder">
-  <input type="text" name="year" class="better-placeholder__input" placeholder="Введите год выпуска автомобиля">
+  <input type="text" name="year" class="better-placeholder__input" pattern="[0-9]{,4}" placeholder="Введите год выпуска автомобиля">
   <label for="year" class="better-placeholder__label">Введите год выпуска автомобиля</label>
 </div><br>
 <span class="label_top">Текст заявки</span>
 <div class="better-placeholder">
-<textarea name="text" class="better-placeholder__input" placeholder="Введите текст заявки"></textarea>
+<textarea name="text" class="better-placeholder__input" pattern="^[A-Za-zА-Яа-яЁё0-9\s]+$" placeholder="Введите текст заявки"></textarea>
   <label for="text" class="better-placeholder__label">Введите текст заявки</label>
 </div><br>
 <div align="center">
