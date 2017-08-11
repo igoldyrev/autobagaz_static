@@ -10,12 +10,12 @@
     <form action="/rewiew.php" method="post">
 <span class="label_top">Ваше имя:</span>
 <div class="better-placeholder">
-  <input type="text" name="name" required="required" class="better-placeholder__rewiew" placeholder="Введите Ваше имя">
+  <input type="text" name="name" required="required" pattern="[А-Яа-яЁё]{2,}" class="better-placeholder__rewiew" placeholder="Введите Ваше имя">
   <label for="name" class="better-placeholder__label_rewiew">Введите Ваше имя</label>
 </div><br>
 <span class="label_top">Ваш отзыв или пожелания:</span>
 <div class="better-placeholder">
-  <textarea name="rewiew" class="better-placeholder__rewiew rewiew_textarea" required="required" placeholder="Введите Ваш отзыв"></textarea>
+  <textarea name="rewiew" class="better-placeholder__rewiew rewiew_textarea" pattern="^[A-Za-zА-Яа-яЁё0-9\s]+$" required="required" placeholder="Введите Ваш отзыв"></textarea>
   <label for="phone" class="better-placeholder__label_rewiew">Введите Ваш отзыв</label>
 </div><br>
 <div align="center">
