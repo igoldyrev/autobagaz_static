@@ -55,10 +55,10 @@ if (mail("autobagaz@yandex.ru", "Заказ с сайта", "Имя:".$name.";
 Тип кузова: ".$kuzov.";
 Год выпуска: ".$year.";
 Текст заявки: ".$text ,"From: autobagaz@yandex.ru \r\n"))
- {     	echo "<center><b>Ваш заказ успешно отправлен!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на предыдущую страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='zayavka.php'>Вернуться назад</a>"; 
-header('Refresh: 3; URL=/zayavka.php');
+ {     	echo "<center><b>Ваш заказ успешно отправлен!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на предыдущую страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='zayavka'>Вернуться назад</a>"; 
+header('Refresh: 3; URL=/zayavka');
 } 
 else { 
-    echo "<center>При отправке заказа возникли проблемы :(<br><a href='/zayavka.php'>Вернуться назад</a>";
+    echo "<center>При отправке заказа возникли проблемы :(<br><a href='/zayavka'>Вернуться назад</a>";
 }
 include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>

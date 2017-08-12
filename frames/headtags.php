@@ -37,6 +37,7 @@
 <link rel="stylesheet" href="/styles/form.css">
 <link rel="stylesheet" href="/styles/modalcall.css">  
 <link rel="stylesheet" href="/styles/rewiew.css">  
+<link rel="stylesheet" href="/styles/goods.css">  
 
 <!-- Таблица стилей для font-awesome -->
 <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">

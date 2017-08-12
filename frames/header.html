@@ -7,15 +7,15 @@
     <h2>Введите имя и телефон и мы Вам перезвоним в течении 10 минут!</h2>
   </div>
   <div class="modal__body">
-    <form action="/call.php" method="post">
+    <form action="/scripts/call.php" method="post">
 <span class="label_top">Ваше имя:</span>
 <div class="better-placeholder">
-  <input type="text" name="name" required="required" class="better-placeholder__input_call" placeholder="Введите Ваше имя">
+  <input type="text" name="name" required="required" pattern="[А-Яа-яЁё]{2,}" class="better-placeholder__input_call" placeholder="Введите Ваше имя">
   <label for="name" class="better-placeholder__label">Введите Ваше имя</label>
 </div><br>
 <span class="label_top">Ваш телефон:</span>
 <div class="better-placeholder">
-  <input type="text" name="phone" class="better-placeholder__input_call" required="required" placeholder="Введите номер телефона">
+  <input type="text" name="phone" class="better-placeholder__input_call" pattern="[0-9]{10,11}" required="required" placeholder="Введите номер телефона">
   <label for="phone" class="better-placeholder__label">Введите номер телефона</label>
 </div><br>
 <div align="center">
@@ -51,7 +51,7 @@
 <ul>
 	<li>+7 342 288 99 69, +7 912 489 79 39</li>
 	<li><a href="mailto:autobagaz@yandex.ru">autobagaz@yandex.ru</a></li>
-	<li><label for="modal-1__open" class="modal__link">Заказать звонок</label></li>
+	<li><button class="modal__button"><label for="modal-1__open" class="modal__link">Заказать звонок</label></button></li>
 </ul>
 
 </div></div>

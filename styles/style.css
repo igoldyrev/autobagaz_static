@@ -98,6 +98,12 @@ h3 {
 	line-height: 1;
 	text-align: center;
 }
+h4 {
+	font-family: HelveticaBold;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+}
 p {
 	font-family: HelveticaRegular;
 	font-size: medium;
@@ -123,10 +129,9 @@ nav a {
 }
 .modal__link {
 	font-family: HelveticaRegular;
-	font-size: x-large;
+	font-size: large;
 	font-weight: 400;
 	line-height:1;
-	color: #FF0000;
 }
 /* Зачеркнутый текст */
 .strike {
@@ -148,6 +153,13 @@ table.index {
 }
 .index a:hover {
 	text-decoration: underline;
+}
+/* Документы в разделе проката */
+.docs {
+	border: 1px solid black;
+}
+.docs a, .docs i {
+	margin: 7px;
 }
 /* Оформление галереи */
 div.gallery {

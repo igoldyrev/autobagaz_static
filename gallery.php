@@ -139,6 +139,36 @@ $prewiew = [
 		'pagename' => 'lifanx50',
 		'img' => '<img class="img_main" src="/images/gallery/20170623_1_x50.jpg" alt="Lifan X50" width="180px">',
 		],
+		[
+		'id' => 22,
+		'name' => 'Reno Logan',
+		'pagename' => 'renologan',
+		'img' => '<img class="img_main" src="/images/gallery/20170716_1_logan.jpg" alt="Reno Logan" width="180px">',
+		],
+		[
+		'id' => 23,
+		'name' => 'Lada Xray',
+		'pagename' => 'ladaxray2707',
+		'img' => '<img class="img_main" src="/images/gallery/20170727_6_xray.jpg" alt="Lada Xray" width="180px">',
+		],
+		[
+		'id' => 24,
+		'name' => 'Skoda Rapid',
+		'pagename' => 'rapid2807',
+		'img' => '<img class="img_main" src="/images/gallery/20170728_1_rapid.jpg" alt="Skoda Rapid" width="180px">',
+		],
+		[
+		'id' => 25,
+		'name' => 'Lada Xray',
+		'pagename' => 'ladaxray3007',
+		'img' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" alt="Lada Xray" width="180px">',
+		],
+		[
+		'id' => 26,
+		'name' => 'Hyundai Creta',
+		'pagename' => 'creta0108',
+		'img' => '<img class="img_main" src="/images/gallery/20170801_3_creta.jpg" alt="Hyundai Creta" width="180px">',
+		],
 ];
 $gallery = [
 		[
@@ -310,6 +340,49 @@ $gallery = [
 		'img1' => '<img class="img_main" src="/images/gallery/20170623_1_x50.jpg" srcset="/images/gallery/20170623_1_x50.jpg 2000w" alt="Lifan X50" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img2' => '<img class="img_main" src="/images/gallery/20170623_2_x50.jpg" srcset="/images/gallery/20170623_2_x50.jpg 2000w" alt="Lifan X50" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		'img3' => '<img class="img_main" src="/images/gallery/20170623_3_x50.jpg" srcset="/images/gallery/20170623_3_x50.jpg 2000w" alt="Lifan X50" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 22,
+		'name' => 'Reno Logan',
+		'img1' => '<img class="img_main" src="/images/gallery/20170716_1_logan.jpg" srcset="/images/gallery/20170716_1_logan.jpg 2000w" alt="Reno Logan" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170716_2_logan.jpg" srcset="/images/gallery/20170716_2_logan.jpg 2000w" alt="Reno Logan" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 23,
+		'name' => 'Lada Xray',
+		'img1' => '<img class="img_main" src="/images/gallery/20170727_1_xray.jpg" srcset="/images/gallery/20170727_1_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170727_2_xray.jpg" srcset="/images/gallery/20170727_2_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170727_3_xray.jpg" srcset="/images/gallery/20170727_3_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170727_4_xray.jpg" srcset="/images/gallery/20170727_4_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170727_5_xray.jpg" srcset="/images/gallery/20170727_5_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img6' => '<img class="img_main" src="/images/gallery/20170727_6_xray.jpg" srcset="/images/gallery/20170727_6_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img7' => '<img class="img_main" src="/images/gallery/20170727_7_xray.jpg" srcset="/images/gallery/20170727_7_xray.jpg 2000w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 24,
+		'name' => 'Skoda Rapid',
+		'img1' => '<img class="img_main" src="/images/gallery/20170728_1_rapid.jpg" srcset="/images/gallery/20170728_1_rapid.jpg 2000w" alt="Skoda Rapid" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170728_2_rapid.jpg" srcset="/images/gallery/20170728_2_rapid.jpg 2000w" alt="Skoda Rapid" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170728_3_rapid.jpg" srcset="/images/gallery/20170728_3_rapid.jpg 2000w" alt="Skoda Rapid" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 25,
+		'name' => 'Lada Xray',
+		'img1' => '<img class="img_main" src="/images/gallery/20170730_1_xray.jpg" srcset="/images/gallery/20170730_1_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170730_2_xray.jpg" srcset="/images/gallery/20170730_2_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170730_3_xray.jpg" srcset="/images/gallery/20170730_3_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170730_4_xray.jpg" srcset="/images/gallery/20170730_4_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170730_5_xray.jpg" srcset="/images/gallery/20170730_5_xray.jpg 1500w" alt="Lada Xray" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		],
+		[
+		'id' => 26,
+		'name' => 'Hyundai Creta',
+		'img1' => '<img class="img_main" src="/images/gallery/20170801_1_creta.jpg" srcset="/images/gallery/20170801_1_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img2' => '<img class="img_main" src="/images/gallery/20170801_2_creta.jpg" srcset="/images/gallery/20170801_2_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img3' => '<img class="img_main" src="/images/gallery/20170801_3_creta.jpg" srcset="/images/gallery/20170801_3_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img4' => '<img class="img_main" src="/images/gallery/20170801_4_creta.jpg" srcset="/images/gallery/20170801_4_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img5' => '<img class="img_main" src="/images/gallery/20170801_5_creta.jpg" srcset="/images/gallery/20170801_5_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
+		'img6' => '<img class="img_main" src="/images/gallery/20170801_6_creta.jpg" srcset="/images/gallery/20170801_6_creta.jpg 1100w" alt="Hyundai Creta" sizes="(max-width: 2000px) 150px, 300px, 350px">',
 		],
 ];
 
@@ -579,8 +652,69 @@ echo "<h1>Галерея работ</h1>";
 				echo $gallery[20][img7];
 				echo $gallery[20][img8];
 				echo '</div>';
-	} 
-	
+	} elseif ($auto == 'renologan') {
+	?> <h3> <?php echo $gallery[21][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[21][img1]; 
+				echo $gallery[21][img2];
+				echo $gallery[21][img3];  
+				echo $gallery[21][img4];  
+				echo $gallery[21][img5];  
+				echo $gallery[21][img6];  
+				echo $gallery[21][img7];
+				echo $gallery[21][img8];
+				echo '</div>';
+	} elseif ($auto == 'ladaxray2707') {
+	?> <h3> <?php echo $gallery[22][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[22][img1]; 
+				echo $gallery[22][img2];
+				echo $gallery[22][img3];  
+				echo $gallery[22][img4];  
+				echo $gallery[22][img5];  
+				echo $gallery[22][img6];  
+				echo $gallery[22][img7];
+				echo $gallery[22][img8];
+				echo '</div>';
+	} elseif ($auto == 'rapid2807') {
+	?> <h3> <?php echo $gallery[23][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[23][img1]; 
+				echo $gallery[23][img2];
+				echo $gallery[23][img3];  
+				echo $gallery[23][img4];  
+				echo $gallery[23][img5];  
+				echo $gallery[23][img6];  
+				echo $gallery[23][img7];
+				echo $gallery[23][img8];
+				echo '</div>';
+	} elseif ($auto == 'ladaxray3007') {
+	?> <h3> <?php echo $gallery[24][name]; ?> </h3> 	
+	<div class="img_div"> <?php
+				echo $gallery[24][img1]; 
+				echo $gallery[24][img2];
+				echo $gallery[24][img3];  
+				echo $gallery[24][img4];  
+				echo $gallery[24][img5];  
+				echo $gallery[24][img6];  
+				echo $gallery[24][img7];
+				echo $gallery[24][img8];
+				echo '</div>';
+	} elseif ($auto == 'creta0108') {
+	?> <h3> <?php echo $gallery[25][name]; ?> </h3> 
+	<h4>Hyundai Creta без рейлинга</h4>
+	<div class="img_div"> <?php
+				echo $gallery[25][img1]; 
+				echo $gallery[25][img2]; ?>
+	<h4>Hyundai Creta с рейлингом</h4>
+		<?php	echo $gallery[25][img3];  
+				echo $gallery[25][img4];  
+				echo $gallery[25][img5];  
+				echo $gallery[25][img6];  
+				echo $gallery[25][img7];
+				echo $gallery[25][img8];
+				echo '</div>';
+	}
 ?>	
 </div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
