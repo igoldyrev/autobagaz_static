@@ -49,16 +49,23 @@ $sql_users = "INSERT INTO users (name, phone)" .
 "VALUES('{$name}', '{$phone}');";
 mysql_query($sql_users);
 
-if (mail("autobagaz@yandex.ru", "Заказ с сайта", "Имя:".$name.";
+if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST['phone']!="")&&(isset($_POST['auto'])&&$_POST['auto']!="")){
+
+if (mail("autobagaz@yandex.ru", "Заказ с сайта", 
+"Имя:".$name.";
 Телефон: ".$phone.";
 Марка машины: ".$auto.";
 Тип кузова: ".$kuzov.";
 Год выпуска: ".$year.";
-Текст заявки: ".$text ,"From: autobagaz@yandex.ru \r\n"))
+Текст заявки: ".$text ,
+"From: autobagaz@yandex.ru \r\n"))
  {     	echo "<center><b>Ваш заказ успешно отправлен!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на предыдущую страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='zayavka'>Вернуться назад</a>"; 
 header('Refresh: 3; URL=/zayavka');
 } 
 else { 
     echo "<center>При отправке заказа возникли проблемы :(<br><a href='/zayavka'>Вернуться назад</a>";
+}}
+else {
+	echo "<center>Вы не заполнили одно из обязательных полей формы, вернитесь, пожалуйста, и заполните его<br><a href='/zayavka'>Вернуться назад</a>";
 }
 include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
