@@ -13,7 +13,7 @@ echo "<title>$titleconst Оставить заявку</title>";
 <div id="content">
 <h1 align="center">Оставить заявку</h1>
 <p>Пользуясь этой формой вы можете отправить заявку, если выбрали модель багажника в каталоге, либо если не смогли это сделать. Укажите Ваши пожелания относительно багажника и не забудьте указать данные Вашего автомобиля и контактные данные. Мы свяжемся с вами в ближайшее время и поможем с выбором.</p>
-<form action="/zakaz.php" method="post">
+<form action="/scripts/zakaz.php" method="post">
 <span class="label_top">Ваше имя:</span>
 <div class="better-placeholder">
   <input type="text" name="name" required="required" pattern="[А-Яа-яЁё]{2,}" class="better-placeholder__input" placeholder="Введите Ваше имя">
