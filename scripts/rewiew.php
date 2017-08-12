@@ -25,7 +25,10 @@ $sql_insert = "INSERT INTO rewiews (name, rewiew)" .
 "VALUES('{$name}', '{$rewiew}');";
 mysql_query($sql_insert);
 
-if (mail("autobagaz@yandex.ru", "Отзыв с сайта", "Имя:".$name.";
+if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['rewiew'])&&$_POST['rewiew']!="")){
+
+if (mail("autobagaz@yandex.ru", "Отзыв с сайта", 
+"Имя:".$name.";
 Текст отзыва: ".$rewiew ,
 "From: autobagaz@yandex.ru \r\n"))
  {     	echo "<center><b>Спасибо за отзыв!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на главную страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='/'>Вернуться назад</a>"; 
@@ -33,5 +36,8 @@ header('Refresh: 3; URL=/');
 } 
 else { 
     echo "<center>Произошла ошибка :(<br><a href='/'>Вернуться на главную страницу</a>";
+}}
+else {
+	echo "<center>Вы не заполнили одно из обязательных полей формы, вернитесь, пожалуйста, и заполните его<br><a href='/'>Вернуться назад</a>";
 }
 include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
