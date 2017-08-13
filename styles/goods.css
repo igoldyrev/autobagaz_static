@@ -1,8 +1,16 @@
+.goods {
+	display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
 .good  {
   width: 220px;
-  height: auto;
   border: 1px solid black;
-  display: inline-block;
+  margin: 0px 5px 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .good_img {
@@ -24,4 +32,10 @@
   padding: 5px;
   border-radius: 7px;
 	border: 1px solid #A4A4A4;
+}
+
+@media screen and (max-width: 480px) {
+	.good_img {
+		width: 170px;
+	}
 }
