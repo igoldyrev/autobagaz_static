@@ -11,7 +11,7 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
 </div>
 <div id="content">
-<?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/goods.html");?>
+<?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/goods.php");?>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/news/newslist.php");?>
 
 <table style="margin-top: 10px" class="index1680" align="center"><tr><td>
