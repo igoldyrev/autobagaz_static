@@ -38,6 +38,7 @@
 <link rel="stylesheet" href="/styles/modalcall.css">  
 <link rel="stylesheet" href="/styles/rewiew.css">  
 <link rel="stylesheet" href="/styles/goods.css">  
+<link rel="stylesheet" href="/styles/sale.css">  
 
 <!-- Таблица стилей для font-awesome -->
 <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
