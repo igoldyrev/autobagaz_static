@@ -49,7 +49,9 @@ $sql_users = "INSERT INTO users (name, phone)" .
 "VALUES('{$name}', '{$phone}');";
 mysql_query($sql_users);
 
-if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST['phone']!="")&&(isset($_POST['auto'])&&$_POST['auto']!="")){
+
+
+if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST['phone']!="")&&(isset($_POST['auto'])&&$_POST['auto']!="")&&(isset($_POST['kuzov'])&&$_POST['kuzov']!="")&&(isset($_POST['year'])&&$_POST['year']!="")&&(isset($_POST['text'])&&$_POST['text']!="")){
 
 if (mail("autobagaz@yandex.ru", "Заказ с сайта", 
 "Имя:".$name.";
@@ -57,7 +59,12 @@ if (mail("autobagaz@yandex.ru", "Заказ с сайта",
 Марка машины: ".$auto.";
 Тип кузова: ".$kuzov.";
 Год выпуска: ".$year.";
-Текст заявки: ".$text ,
+Текст заявки: ".$text.";
+
+Техническая информация:
+Примерный user-agent: ".$_SERVER['HTTP_USER_AGENT'].";
+ip-адрес:" .$_SERVER['REMOTE_ADDR'].";
+Ссылка на скрипт, с которого пришло письмо:" .$_SERVER['REQUEST_URI'] ,
 "From: autobagaz@yandex.ru \r\n"))
  {     	echo "<center><b>Ваш заказ успешно отправлен!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на предыдущую страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='zayavka'>Вернуться назад</a>"; 
 header('Refresh: 3; URL=/zayavka');
