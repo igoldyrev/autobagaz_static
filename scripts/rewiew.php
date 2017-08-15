@@ -29,7 +29,12 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['rewiew'])&&$_POST
 
 if (mail("autobagaz@yandex.ru", "Отзыв с сайта", 
 "Имя:".$name.";
-Текст отзыва: ".$rewiew ,
+Текст отзыва: ".$rewiew."; 
+
+Техническая информация:
+Примерный user-agent: ".$_SERVER['HTTP_USER_AGENT'].";
+ip-адрес:" .$_SERVER['REMOTE_ADDR'].";
+Ссылка на скрипт, с которого пришло письмо:" .$_SERVER['REQUEST_URI'] ,
 "From: autobagaz@yandex.ru \r\n"))
  {     	echo "<center><b>Спасибо за отзыв!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на главную страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='/'>Вернуться назад</a>"; 
 header('Refresh: 3; URL=/');
