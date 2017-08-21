@@ -39,6 +39,7 @@
 <link rel="stylesheet" href="/styles/rewiew.css">  
 <link rel="stylesheet" href="/styles/goods.css">  
 <link rel="stylesheet" href="/styles/sale.css">  
+<link rel="stylesheet" href="/styles/popup.css">  
 
 <!-- Таблица стилей для font-awesome -->
 <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
@@ -49,6 +50,8 @@
 <script type="text/javascript">
   VK.init({apiId: 5866168, onlyWidgets: true});
 </script>
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="/scripts/nav-menu.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/scripts/popup.js"></script>
