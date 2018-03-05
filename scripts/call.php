@@ -29,13 +29,23 @@ $sql_users = "INSERT INTO users (name, phone)" .
 "VALUES('{$name}', '{$phone}');";
 mysql_query($sql_users);
 
+if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST['phone']!="")){
+
 if (mail("autobagaz@yandex.ru", "Звонок с сайта!!!", "Имя:".$name.";
-Телефон: ".$phone ,
+Телефон: ".$phone.";
+
+Техническая информация:
+Примерный user-agent: ".$_SERVER['HTTP_USER_AGENT'].";
+ip-адрес:" .$_SERVER['REMOTE_ADDR'].";
+Ссылка на скрипт, с которого пришло письмо:" .$_SERVER['REQUEST_URI'] ,
 "From: autobagaz@yandex.ru \r\n"))
- {     	echo "<center><b>Мы Вам обязательно перезвоним!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на предыдущую страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='/'>Вернуться назад</a>"; 
+ {     	echo "<center><b>Мы Вам обязательно перезвоним!</b><br><br><center>Через 3 секунды Вы будете перенаправлены на главную страницу<br><br>Если этого не произошло, то нажмите на ссылку:<br><a href='/'>Вернуться назад</a>"; 
 header('Refresh: 3; URL=/');
 } 
 else { 
     echo "<center>Произошла ошибка :(<br><a href='/'>Вернуться назад</a>";
+}}
+else {
+	echo "<center>Вы не заполнили одно из обязательных полей формы, вернитесь, пожалуйста, и заполните его<br><a href='/'>Вернуться назад</a>";
 }
 include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
